@@ -21,7 +21,7 @@ var userRoutes = require('./routes/user');
 var app = express();
 
 //mongoose.connect('localhost:27017/shopping'); 
-mongoose.connect(process.env.MONGODB || 'mongodb://localhost:27017/shopping', { useNewUrlParser: true })
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/shopping', { useNewUrlParser: true })
 require('./config/passport');
 
 
