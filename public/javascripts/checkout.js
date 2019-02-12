@@ -1,6 +1,5 @@
-Stripe.setPublishableKey('rk_test_5NnlkPoHBOg8UiGIW5dPkr16');
+Stripe.setPublishableKey('pk_live_bUyIUhgPXuiPUHBBWOcIzEjp');
 
-// Stripe.setPublishableKey('pk_test_Cp6ZccW1vEbGwcnTkkT0OfG6');
 
 var $form = $('#checkout-form');
 // var $form = $('#checkout-form');
@@ -39,3 +38,5 @@ function stripeResponseHandler(status, response) {
           $form.get(0).submit();
     }
 }
+
+<script type="text/javascript" src="/javascripts/jquery-3.1.1.min.js"></script>
