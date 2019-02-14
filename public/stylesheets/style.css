@@ -3,10 +3,81 @@
 }
 
 .thumbnail .description {
-    color: #7f7f7f;
+    color: black;
 }
 
 .price {
     font-weight: bold;
     font-size: 16px;
 }
+
+.thumbnail {
+    background-color: #dff0d8;
+    border: solid 2px black;
+    box-shadow: 0 14px 28px black, 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.thumbnail:hover {
+    transform: scale(1.05);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: 0.1s;
+  }
+
+
+.navbar-default {
+    height: 150px;
+    width: 100%;
+    background-color: #dff0d8;
+    color:black;
+    padding-top: 100px; 
+    box-shadow: 0 14px 28px black, 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.navbar-brand  {
+    font-size: 80px;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+  }
+
+body {
+    background-color: #dff0d8;
+}
+
+.shopping-cart {
+    font-size: 24px;
+}
+
+.dropdown {
+    font-size: 24px;
+}
+
+.dropdown-menu {
+    font-size: 16px;
+}
+
+
+footer {
+    background: #dff0d8;
+    height: 150px;
+    position: relative;
+    color: black;
+    overflow: auto;
+    text-align: center;
+    padding-top: 50px;
+
+  }
+  
+  /* .footer > .bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:rgba(17, 166, 192, 0.533);
+    padding: 8px;
+    padding-top: 50px;
+    font-weight: 600;
+    height: 150px;
+    width: 100%;
+
+  } */
+
